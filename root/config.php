@@ -19,9 +19,9 @@ switch(DB_URL){
 		defined ("DB_SERVER") or define("DB_SERVER", 'localhost');
 		defined ("DB_USER") or define("DB_USER", "root");
 		defined ("DB_PASS") or define("DB_PASS", "");
-		defined ("DB_NAME") or define("DB_NAME", "flexigas");
-		defined ("SITE_URL") or define("SITE_URL", 'http://localhost/flexigas');
-		defined ("HOME_URL") or define("HOME_URL", 'http://localhost/flexigas/users');
+		defined ("DB_NAME") or define("DB_NAME", "test");
+		defined ("SITE_URL") or define("SITE_URL", 'http://localhost/php-mysql-crud');
+		defined ("HOME_URL") or define("HOME_URL", 'http://localhost/php-mysql-crud/users');
 	break;
 
 	case 'https://www.flexigas.co': 
@@ -36,9 +36,9 @@ switch(DB_URL){
 		defined ("DB_SERVER") or define("DB_SERVER", 'localhost');
 		defined ("DB_USER") or define("DB_USER", "root");
 		defined ("DB_PASS") or define("DB_PASS", "");
-		defined ("DB_NAME") or define("DB_NAME", "flexigas");
-		defined ("SITE_URL") or define("SITE_URL", 'http://localhost/flexigas');
-		defined ("HOME_URL") or define("HOME_URL", 'http://localhost/flexigas/users');
+		defined ("DB_NAME") or define("DB_NAME", "test");
+		defined ("SITE_URL") or define("SITE_URL", 'http://localhost/php-mysql-crud');
+		defined ("HOME_URL") or define("HOME_URL", 'http://localhost/php-mysql-crud/users');
 	}
 	
  try{
