@@ -1,3 +1,4 @@
+<?php include 'root/action.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,6 +19,11 @@
 			<h3>Add New User</h3>
 			<br><br>
 			<div class="">
+				<?php 
+				if (isset($_SESSION['status'])) {
+					echo $_SESSION['status'];
+					unset($_SESSION['status']);
+				} ?>
 				<form method="POST" action="">
 					<div class="form-group">
 						<label>Firstname</label>

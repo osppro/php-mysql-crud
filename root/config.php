@@ -7,7 +7,6 @@ $dtime = date("Y-m-d H:i:s A", time());
 $now = date("Y-m-d H:i:s", time());
 $strtime = date("d-m-Y h:i:s A", time());
 $today = date("Y-m-d");
-require_once('mailer.php');
 
 defined ("APP_DIR") or define("APP_DIR","");
 defined ("DB_URL") or define("DB_URL", $_SERVER['HTTP_HOST']);
