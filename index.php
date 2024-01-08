@@ -29,15 +29,18 @@
 					</tr>
 				</thead>
 				<tbody>
+				<?php $sql = dbSQL("SELECT * FROM crudapp ORDER BY id DESC ");
+				foreach($sql AS $val) { ?>
 					<tr>
-						<td>David</td>
-						<td>David</td>
-						<td>079699469</td>
+						<td><?=$val->fname; ?></td>
+						<td><?=$val->lname; ?></td>
+						<td><?=$val->phone; ?></td>
 						<td>
 							<a href="" class="btn btn-primary">Edit</a>
 							<a href="" class="btn btn-danger">Delete</a>
 						</td>
 					</tr>
+				<?php } ?>
 				</tbody>
 			</table>
 		</div>
